@@ -2,11 +2,9 @@ const path = require('path')
 
 module.exports = {
   entry: './testing.js',
-
   output: {
     filename: 'bundle.js'
   },
-
   module: {
     rules: [{
         test: /\.(js|jsx)$/,
